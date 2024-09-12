@@ -5,7 +5,7 @@ class Vexal < Formula
     sha256 "4a4921dcffda74849a086fb71606e9d452cafec0f2bd9d47547c840d35596f65"
     license "BSD 3" 
   
-    def installgst
+    def install
       bin.install "vx"
     end
   
