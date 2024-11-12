@@ -8,6 +8,40 @@ class Vexal < Formula
     def install
       bin.install "vx"
     end
+
+    def caveats
+      <<~EOS
+        #{ascii_art}
+        
+        Thank you for installing Vexal!
+  
+        Contact Information:
+        - Docs: https://www.vexal.io/
+        - GitHub: https://github.com/PinedaVictor/vexal
+        - Email: pinedavictor095@gmail.com
+
+      EOS
+    end
+
+    private 
+
+    def ascii_art
+      <<~ART
+               _______________________________
+              /                               \\
+             |   ___________________________   |
+             |  |                           |  |
+             |  |   C:\\> vx -v              |  |
+             |  |                           |  |
+             |  |   VEXAL CLI INSTALLED!    |  |
+             |  |                           |  |
+             |  |   [ READY TO LAUNCH ]     |  |
+             |  |___________________________|  |
+             |                                 |
+              \\_______________________________/
+                     \\_______________/
+      ART
+    end
   
     test do
       assert_match "vx version", shell_output("#{bin}/vx --version")
