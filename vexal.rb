@@ -1,8 +1,8 @@
 class Vexal < Formula
     desc "AI CLI app built for assisting and automating developer workflow."
     homepage "https://www.vexal.io/"
-    url "https://github.com/PinedaVictor/vexal/releases/download/v1.2.10/vx"
-    sha256 "0dbd9fe54db9b77d5f167a9526e4b6666b3858f8efb21e78404c6411072aa58e"
+    url "https://github.com/PinedaVictor/vexal/releases/download/v1.3.0/vx"
+    sha256 "e1ba9c8069e5bf716ec0cae47ad1e2eeffb2aaeb115caf7f42c22b1136c38edc"
     license "BSD 3" 
   
     def install
