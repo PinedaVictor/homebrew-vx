@@ -1,8 +1,8 @@
 class Vexal < Formula
     desc "Developer workflow CLI with dependency graph, AI tooling, and repo automation."
     homepage "https://www.vexal.io/"
-    url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.0/vx"
-    sha256 "77660afa3d3baf8ccf6d1e70f68f14c98a0e63ccadfd2636a02e4de5bb532bb0"
+    url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.1/vx"
+    sha256 "b5b7d002fc618b424ed33df1244a595d70d9d70bf70059ce67bff62938aaf754"
     license "BSD-3-Clause"
   
     def install
