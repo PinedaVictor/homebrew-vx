@@ -7,17 +7,17 @@ class Vexal < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.6/vexal_darwin_arm64.tar.gz"
-      sha256 "5276279bbf96a7a8d52e66719ba185d4e7b6cea6cea36358c5885430ee194c43"
+      sha256 "c534fe2e2ef5e235b1fc9712adafbcd1136e2cb856d79b0c47d65ac6b991a3ae"
     else
       url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.6/vexal_darwin_amd64.tar.gz"
-      sha256 "2fcb4888ec347f0ec83769c1a21251de86d3fd634902d26d23467c38230e6b12"
+      sha256 "746f56a271a6af8b05464f9b10d5bce8ac6132531af36fb6b89a513dbdfd6a60"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.6/vexal_linux_amd64.tar.gz"
-      sha256 "93f17de729e53be5f9c63ddfe6e59faac7ad32141b0b140bd7d421fb3c9eaf0e"
+      sha256 "bf73b965d44b9ee3743402c39fa392a687b0d2c59d4d6d300462f574425e8b5a"
     end
   end
 
