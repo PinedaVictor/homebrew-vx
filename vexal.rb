@@ -1,23 +1,23 @@
 class Vexal < Formula
   desc "Developer workflow CLI with dependency graph, AI tooling, and repo automation."
   homepage "https://www.vexal.io/"
-  version "1.5.8"
+  version "1.5.9"
   license "BSD-3-Clause"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.8/vexal_darwin_arm64.tar.gz"
-      sha256 "ee6015ba18004e6bd18f35264b0e1ca7bfa169bddc778b0e19d483f65139a230"
+      url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.9/vexal_darwin_arm64.tar.gz"
+      sha256 "3aea3eff1f6f0934b6a1a271097ffc3157c0a4f51e57ffe7a1881a41a1418dba"
     else
-      url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.8/vexal_darwin_amd64.tar.gz"
-      sha256 "aba30786bc5b6b3c4e1f113037758a71546586d21acf3363f0e2734d7d5b1bc2"
+      url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.9/vexal_darwin_amd64.tar.gz"
+      sha256 "a8aea6fbffe0d905f87b93ddfeddef9c60b7e7aa033bee6bd625e6ac256b1bc4"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.8/vexal_linux_amd64.tar.gz"
-      sha256 "3ddd25d31a070e8401994b7bd91a76ab97cf48544b68c17068971812e3ed1ee4"
+      url "https://github.com/PinedaVictor/vexal/releases/download/v1.5.9/vexal_linux_amd64.tar.gz"
+      sha256 "369b4948a2fafceb9fa2eaa0d08f38bef89d77ceebf2bd68da8ec912733a4310"
     end
   end
 
